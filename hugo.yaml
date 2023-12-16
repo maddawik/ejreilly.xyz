@@ -8,7 +8,7 @@ buildDrafts: false
 buildFuture: false
 buildExpired: false
 
-googleAnalytics: UA-123-45
+# googleAnalytics: UA-123-45
 
 minify:
   disableXML: true
@@ -45,15 +45,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
-    apple_touch_icon: "<link / abs url>"
-    safari_pinned_tab: "<link / abs url>"
+    favicon: "/favicon.ico"
+    favicon16x16: "/favicon-16x16.ico"
+    favicon32x32: "/favicon-32x32.ico"
+    apple_touch_icon: "/apple-touch-icon.png"
+    safari_pinned_tab: "/favicon.ico"
 
   label:
     text: "./ejreilly.xyz"
-    icon: ../assets/snake-close.jpg
+    icon: https://s3.amazonaws.com/keybase_processed_uploads/a0cd7c3711b1ec79a753138dfa0c6305_360_360.jpg
     iconHeight: 35
 
   # profile-mode
