@@ -115,7 +115,7 @@ features and several others.
 *Jan 2017 - Aug 2018*
 
 {{< skill VMWare>}}
-{{< skill HP QC>}}
+{{< skill HPQC>}}
 {{< skill TFS>}}
 
 - Acted as defect coordinator for the team by managing defects,
