@@ -41,12 +41,7 @@ UseHugoToc: false
 
 *Apr 2023 - Now*
 
-{{< skill AWS>}}
-{{< skill GCP>}}
-{{< skill Go>}}
-{{< skill Linux>}}
-{{< skill Terraform>}}
-{{< skill Vault>}}
+{{< skill AWS GCP Go Linux Terraform Vault>}}
 
 ---
 ## 🔭 Lookingglass Cyber
@@ -55,12 +50,7 @@ UseHugoToc: false
 
 *Jun 2022 - Apr 2023*
 
-{{< skill Linux>}}
-{{< skill Bash>}}
-{{< skill "GitHub Actions">}}
-{{< skill Ansible>}}
-{{< skill Terraform>}}
-{{< skill AWS>}}
+{{< skill Linux Bash "GitHub Actions" Ansible Terraform AWS>}}
 
 - Developed automation and IaC for several systems using largely terraform,
 ansible, GitHub actions, jenkins and bash - on-prem and AWS.
@@ -74,10 +64,7 @@ with existing build components.
 
 *Sep 2019 - Jun 2022*
 
-{{< skill Ruby>}}
-{{< skill Bash>}}
-{{< skill Linux>}}
-{{< skill Jenkins>}}
+{{< skill Ruby Bash Linux Jenkins>}}
 
 - Tested and developed automation using Ruby/rspec for ScoutPrime - a big-data
 tool for correlating information about software vulnerabilities and the
@@ -91,10 +78,7 @@ topology of the internet.
 
 *Aug 2018 - Sep 2019*
 
-{{< skill Selenium>}}
-{{< skill TypeScript>}}
-{{< skill Powershell>}}
-{{< skill TFS>}}
+{{< skill Selenium TypeScript Powershell TFS>}}
 
 - Researched, designed and implemented a custom Selenium Grid test framework
 using Selenium WebDriver and PowerShell to dramatically increase automation
@@ -114,9 +98,7 @@ features and several others.
 
 *Jan 2017 - Aug 2018*
 
-{{< skill VMWare>}}
-{{< skill HPQC>}}
-{{< skill TFS>}}
+{{< skill VMWare HPQC TFS>}}
 
 - Acted as defect coordinator for the team by managing defects,
 communicating with and involving development, QA and third-level
@@ -134,10 +116,7 @@ communicating with developers.
 
 *May 2016 - Dec 2016*
 
-{{< skill "C#">}}
-{{< skill ".Net">}}
-{{< skill TFS>}}
-{{< skill HPQC>}}
+{{< skill "C#" ".Net" TFS HPQC>}}
 
 - Developed a tool using C# and WPF for generating defect/test case
 metrics containing defect management data from TFS (Team Foundation
