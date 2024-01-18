@@ -39,6 +39,7 @@ params:
   comments: false
   hidemeta: false
   hideSummary: false
+  hideFooter: true
   showtoc: false
   tocopen: false
 
