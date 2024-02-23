@@ -54,7 +54,7 @@ params:
 
   label:
     text: "./ejreilly.xyz"
-    icon: https://s3.amazonaws.com/keybase_processed_uploads/a0cd7c3711b1ec79a753138dfa0c6305_360_360.jpg
+    icon: https://gravatar.com/userimage/39490228/474e7f63d319d57632aa4d8e6d4b3342.jpeg?size=256
     iconHeight: 35
 
   # profile-mode
@@ -62,7 +62,7 @@ params:
     enabled: true # needs to be explicitly set
     title: EJ Reilly
     subtitle: "Hi 👋 I'm EJ. I'm a programmer and devops engineer."
-    imageUrl: "https://gravatar.com/userimage/39490228/046111672ebc34d81a5c840c7b0292e2.jpeg?size=300"
+    imageUrl: "https://gravatar.com/userimage/39490228/4835fb725f5e7decbc015149503af008.jpeg?size=300"
     imageWidth: 200
     imageHeight: 200
     imageTitle: Me with a guitar
