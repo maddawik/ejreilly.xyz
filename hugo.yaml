@@ -67,8 +67,8 @@ params:
     imageHeight: 200
     imageTitle: Me with a guitar
     buttons:
-      - name: Resume
-        url: resume
+      - name: About
+        url: about
       - name: Blog
         url: posts
 
@@ -117,9 +117,9 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: resume
-      name: Resume
-      url: /resume/
+    - identifier: about
+      name: About
+      url: /about/
       weight: 1
     - identifier: posts
       name: Blog

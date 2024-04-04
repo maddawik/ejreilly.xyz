@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "DevOps Engineer // Programmer"
+description: "DevOps Engineer // Programmer // Musician"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
 disableShare: true
@@ -37,20 +37,16 @@ UseHugoToc: false
 
 ## 🦊 ZeroFox
 
-### DevOps Engineer
+{{< work-role "DevOps Engineer" "Apr 2023 - Now" >}}
 
-*Apr 2023 - Now*
-
-{{< skill AWS GCP Go Linux Terraform Vault>}}
+{{< skill AWS S3 EC2 GCP Cloudflare Docker Jenkins Go Linux Bash Terraform Vault >}}
 
 ---
 ## 🔭 Lookingglass Cyber
 
-### Platform Engineer
+{{< work-role "Platform Engineer" "Jun 2022 - Apr 2023" >}}
 
-*Jun 2022 - Apr 2023*
-
-{{< skill Linux Bash "GitHub Actions" Ansible Terraform AWS>}}
+{{< skill Linux Bash "GitHub Actions" Docker Jenkins Ansible Terraform AWS>}}
 
 - Developed automation and IaC for several systems using largely terraform,
 ansible, GitHub actions, jenkins and bash - on-prem and AWS.
@@ -60,11 +56,9 @@ with existing build components.
 - Migrated GitHub runners from Amazon Linux to Ubuntu.
 - Created a reusable terraform module for shipping cloudwatch logs to logz.io.
 
-### QA Engineer
+{{< work-role "QA Engineer" "Sep 2019 - Jun 2022" >}}
 
-*Sep 2019 - Jun 2022*
-
-{{< skill Ruby Bash Linux Jenkins>}}
+{{< skill Ruby Python Bash "Arch Linux" Jenkins>}}
 
 - Tested and developed automation using Ruby/rspec for ScoutPrime - a big-data
 tool for correlating information about software vulnerabilities and the
@@ -74,9 +68,7 @@ topology of the internet.
 
 ## 🚚 United Postal Service
 
-### Application Developer
-
-*Aug 2018 - Sep 2019*
+{{< work-role "Application Developer" "Aug 2018 - Sep 2019" >}}
 
 {{< skill Selenium TypeScript Powershell TFS>}}
 
@@ -94,9 +86,7 @@ initiatives, communicating issues to developers, ensuring high quality releases
 for several features including form upload functionality, auto-PAR, mobile
 features and several others.
 
-### QA Analyst
-
-*Jan 2017 - Aug 2018*
+{{< work-role "QA Analyst" "Jan 2017 - Aug 2018" >}}
 
 {{< skill VMWare HPQC TFS>}}
 
@@ -112,9 +102,7 @@ company-wide initiatives including dangerous goods, mail innovations
 enhancements and upload forms enhancements, identifying issues and
 communicating with developers.
 
-### Co-op
-
-*May 2016 - Dec 2016*
+{{< work-role "Co-op" "May 2016 - Dec 2016" >}}
 
 {{< skill "C#" ".Net" TFS HPQC>}}
 
@@ -123,3 +111,34 @@ metrics containing defect management data from TFS (Team Foundation
 Server) and test case management data from HPQC, used to analyze and
 report on the quality of WorldShip - a windows-based global shipping
 application deployed to over 100 countries.
+
+---
+
+## 🎓 Education
+
+{{< education "Towson University" "💻 MS Computer Science" "May 2018" >}}
+{{< education "" "🎶 BA Jazz & Commercial Performance" "December 2014" >}}
+{{< education "Harford Community College" "🎵 AA Music" "December 2011" >}}
+
+---
+
+## 🎭 Musicals
+
+{{< musicals
+"🥁 John and Jen"
+"🎸 Into the Woods"
+"🎸 Sweeney Todd"
+"🎸 Phantom of the Opera"
+"🎸 Bye, Bye, Birdie!"
+"🎸 Titanic"
+"🎸 '13' The Musical"
+"🎸 Sunset Boulevard"
+"🎸 High School Musical"
+"🎸 The Fantastiks"
+"🎸 Rent"
+"🎸 Les Misérables"
+"🎸 The Little Mermaid"
+"🎸 Hairspray"
+"🎸 Cabaret"
+"🎸 Rocky Horror Picture Show" >}}
+

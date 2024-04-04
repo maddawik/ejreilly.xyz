@@ -1,9 +1,65 @@
+.post-description {
+  font-style: italic;
+}
+
 .skill {
     display: inline-block;
     color: black;
     background-color: #25ae60;
-    font-size: 15px;
+    font-size: 14px;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
+}
+
+.musical {
+    display: inline-block;
+    color: white;
+    background-color: #2e5077;
+    font-size: 14px;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    max-width: 80%;
+}
+
+.musicals {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.education-entry p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.degree {
+    flex: 1;
+}
+
+.date {
+    white-space: nowrap;
+}
+
+.work-role {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.role-name {
+    font-weight: bold;
+    font-size: 1.3em;
+    padding: 3px 8px;
+    border-radius: 4px;
+    flex: 1;
+    margin-right: 10px;
+}
+
+.dates {
+    white-space: nowrap;
 }
