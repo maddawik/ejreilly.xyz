@@ -14,7 +14,7 @@ comments: false
 description: "How to configure neovim for writing stories with ink."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true

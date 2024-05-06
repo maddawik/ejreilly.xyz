@@ -14,7 +14,7 @@ comments: false
 description: "How to configure Neovim for game development with Godot"
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
-disableShare: false
+disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true

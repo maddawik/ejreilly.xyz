@@ -1,5 +1,5 @@
 ---
-title: 'EJ Reilly'
+# title: 'EJ Reilly'
 # date: 2023-12-12T23:14:41-05:00
 # weight: 1
 # aliases: ["/first"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: true
 comments: false
-description: "DevOps Engineer // Programmer // Musician"
+# description: "Software Engineer // Game Dev // Musician"
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: false # to disable highlightjs
 disableShare: true
@@ -37,7 +37,11 @@ UseHugoToc: false
 
 ## 🦊 ZeroFox
 
-{{< work-role "DevOps Engineer" "Apr 2023 - Now" >}}
+{{< work-role "Software Engineer" "May 2024 - Now" >}}
+
+{{< skill Python Go Bash Docker Jenkins Linux Terraform Vault >}}
+
+{{< work-role "DevOps Engineer" "Apr 2023 - April 2024" >}}
 
 {{< skill AWS S3 EC2 GCP Cloudflare Docker Jenkins Go Linux Bash Terraform Vault >}}
 

@@ -28,7 +28,7 @@ params:
 
   ShowReadingTime: true
   ShowShareButtons: true
-  ShowPostNavLinks: true
+  ShowPostNavLinks: false
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: false
   ShowWordCount: true
@@ -54,18 +54,18 @@ params:
 
   label:
     text: "./ejreilly.xyz"
-    icon: https://gravatar.com/userimage/39490228/474e7f63d319d57632aa4d8e6d4b3342.jpeg?size=256
+    icon: https://gravatar.com/userimage/39490228/aeacb35b06ea80995be88ec95f86d833.jpeg?size=256
     iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: true # needs to be explicitly set
+    enabled: false # needs to be explicitly set
     title: EJ Reilly
-    subtitle: "Hi 👋 I'm EJ. I'm a programmer and devops engineer."
+    subtitle: "Hi 👋 I'm EJ. I like coding, game dev and music."
     imageUrl: "https://gravatar.com/userimage/39490228/4835fb725f5e7decbc015149503af008.jpeg?size=300"
     imageWidth: 200
     imageHeight: 200
-    imageTitle: Me with a guitar
+    imageTitle: Me winning a disc golf tournament
     buttons:
       - name: About
         url: about
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "EJ"
-    Content: devops engineer // programmer
+    Content: software engineering // game dev // music
 
   socialIcons:
     - name: github
