@@ -80,8 +80,6 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/mawdac"
-    - name: keybase
-      url: "https://keybase.io/maddawik"
     - name: linkedin
       url: "https://linkedin.com/in/ej-reilly/"
     - name: rss
