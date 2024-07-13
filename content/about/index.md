@@ -23,7 +23,9 @@ Feel free to reach out!
 
 <edwardreillycomputers@gmail.com>
 
-## 🦊 ZeroFox
+---
+
+## 🦊 ZeroFox (LookingGlass acquisition)
 
 {{< work-role "Software Engineer" "April 2024 - July 2024" >}}
 
@@ -43,9 +45,7 @@ Feel free to reach out!
 - As part of the DevSecOps team conducted an internal review of our API
   logging, made suggestions for improvement and unification.
 
----
-
-## 🔭 Lookingglass Cyber
+## 🔭 LookingGlass Cyber
 
 {{< work-role "Platform Engineer" "Jun 2022 - Apr 2023" >}}
 
