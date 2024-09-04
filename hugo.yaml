@@ -61,7 +61,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: EJ Reilly
-    subtitle: "Hi 👋 I'm EJ. I like coding, game dev and music."
+    subtitle: "Hi 👋 I'm EJ, a software engineer [@VulnCheck](https://vulncheck.com)"
     imageUrl: "https://gravatar.com/userimage/39490228/4835fb725f5e7decbc015149503af008.jpeg?size=300"
     imageWidth: 200
     imageHeight: 200
@@ -75,7 +75,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "EJ"
-    Content: software engineering // game dev // music
+    Content: Software Engineer [@VulnCheck](https://vulncheck.com)
 
   socialIcons:
     - name: github

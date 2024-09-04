@@ -16,12 +16,9 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
 
-## 👀 Looking for something new
+## ✅ VulnCheck
 
-I'm currently looking for a new role as Software Engineer or DevOps Engineer.
-Feel free to reach out!
-
-<edwardreillycomputers@gmail.com>
+{{< work-role "Member of Technical Staff" "September 2024 - Now" >}}
 
 ---
 
@@ -45,7 +42,7 @@ Feel free to reach out!
 - As part of the DevSecOps team conducted an internal review of our API
   logging, made suggestions for improvement and unification.
 
-## 🔭 LookingGlass Cyber
+## 🔭 LookingGlass Cyber Solutions
 
 {{< work-role "Platform Engineer" "Jun 2022 - Apr 2023" >}}
 
