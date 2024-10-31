@@ -30,7 +30,7 @@ params:
   ShowShareButtons: true
   ShowPostNavLinks: false
   ShowBreadCrumbs: true
-  ShowCodeCopyButtons: false
+  ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
@@ -42,6 +42,7 @@ params:
   hideFooter: true
   showtoc: false
   tocopen: false
+  social: true
 
   assets:
     # disableHLJS: true # to disable highlight.js

@@ -187,8 +187,11 @@ From here you should:
 1. Toggle "Use External Editor" on
 2. Set the "Exec Path" to your neovim installation (you can get the path by
    running `which nvim`)
-3. Set the "Exec Flags" to `--server /tmp/godot.pipe --remote-send
-   "<C-\><C-N>:n {file}<CR>:call cursor({line},{col})<CR>"`
+3. Set the "Exec Flags" to:
+
+```sh
+--server /tmp/godot.pipe --remote-send "<C-\><C-N>:n {file}<CR>:call cursor({line},{col})<CR>"`
+```
 
 Now each time we run Godot, it will run neovim in server mode and communicate
 over the `/tmp/godot.pipe` file we specified! Huzzah!
