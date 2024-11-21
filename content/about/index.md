@@ -141,5 +141,5 @@ UseHugoToc: false
 "🎸 The Little Mermaid"
 "🎸 Hairspray"
 "🎸 Cabaret"
-"🎸 Little Shot of Horrors"
+"🎸 Little Shop of Horrors"
 "🎸 Rocky Horror Picture Show" >}}
