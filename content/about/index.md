@@ -20,6 +20,8 @@ UseHugoToc: false
 
 {{< work-role "Member of Technical Staff" "September 2024 - Now" >}}
 
+{{< skill Go Python >}}
+
 ---
 
 ## 🦊 ZeroFox (LookingGlass acquisition)
