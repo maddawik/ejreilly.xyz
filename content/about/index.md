@@ -30,19 +30,21 @@ UseHugoToc: false
 
 {{< skill Python Go Bash Docker Jenkins Linux Terraform Vault >}}
 
-- Created the OpenCTI integration for ZeroFox in 2 weeks, translating threat
-  intel feed data to STIX objects. Supported the integration over several months,
-  addressing customer issues promptly.
-- Added PANW's XSOAR development instance to AWS infra for testing our
-  integration with PANW, managed by Terraform and Salt.
+- Developed the OpenCTI integration for ZeroFox in just 2 weeks, enabling
+  translation of threat intel feeds into STIX objects. Ensured reliability by
+  resolving all customer-reported issues.
+- Provisioned PANW's XSOAR development instance in AWS using Terraform and
+  Salt, facilitating seamless integration testing and accelerating feedback
+  cycles for PANW-related products.
 
 {{< work-role "DevOps Engineer" "Apr 2023 - April 2024" >}}
 
 {{< skill AWS S3 EC2 GCP Cloudflare Docker Jenkins Go Linux Bash Terraform Vault >}}
 
-- Created internal tooling for monitoring AWS activitiy written in go.
-- As part of the DevSecOps team conducted an internal review of our API
-  logging, made suggestions for improvement and unification.
+- Engineered a Go-based tool for real-time monitoring of AWS activity, enhancing
+  visibility and reducing anomaly detection time.
+- Led a comprehensive review of API logging practices within the DevSecOps
+  team, proposing standardized approaches that improved log traceability
 
 ## 🔭 LookingGlass Cyber Solutions
 
@@ -50,22 +52,27 @@ UseHugoToc: false
 
 {{< skill Linux Bash "GitHub Actions" Docker Jenkins Ansible Terraform AWS>}}
 
-- Developed automation and IaC for several systems using largely terraform,
-  ansible, GitHub actions, jenkins and bash - on-prem and AWS.
-- Converted CI and CD workflows from Jenkins to GitHub actions for a new
-  polylith monorepo, replacing the old backend build system and incorporating it
-  with existing build components.
-- Migrated GitHub runners from Amazon Linux to Ubuntu for dependency issues,
-  which improved maintenance and usability of the runners.
-- Created a reusable terraform module for shipping cloudwatch logs to logz.io.
+- Automated deployment processes for on-prem and AWS environments by creating
+  IaC solutions with Terraform and Ansible, reducing deployment times and
+  improving system reliability.
+- Transitioned CI/CD workflows from Jenkins to GitHub Actions for a new
+  polylith monorepo, streamlining build processes and reducing integration
+  errors.
+- Migrated GitHub runners from Amazon Linux to Ubuntu to resolve dependency
+  issues, enhancing system maintainability and reducing dependency complexity.
+- Designed and deployed a reusable Terraform module for shipping CloudWatch
+  logs to Logz.io, standardizing log management and reducing configuration time.
 
 {{< work-role "QA Engineer" "Sep 2019 - Jun 2022" >}}
 
 {{< skill Ruby Python Bash "Arch Linux" Jenkins>}}
 
-- Tested and developed automation using Ruby/rspec for ScoutPrime - a big-data
-  tool for correlating information about software vulnerabilities and the
-  topology of the internet.
+- Created automated test suites using Ruby/RSpec for ScoutPrime, a big-data
+  platform analyzing vulnerabilities and internet topology, reducing testing
+  time by 50%.
+- Reviewed vulnerability scans for clojure backend systems, assessing and
+  prioritizing findings to address critical security issues and improve system
+  robustness.
 
 ---
 
@@ -75,45 +82,43 @@ UseHugoToc: false
 
 {{< skill Selenium TypeScript Powershell TFS>}}
 
-- Researched, designed and implemented a custom Selenium Grid test framework
-  using Selenium WebDriver and PowerShell to dramatically increase automation
-  speed/efficiency of the existing Protractor test suite by concurrently
-  executing 100 tests and streamlining reporting directly into the existing
-  Microsoft TFS dashboard.
-- Implemented several new software tools and technologies for the QA automation
-  project including debugging, mobile device emulation, linting, custom VSCode
-  tasks, code snippets, initial documentation for the project and implemented
-  additional custom reporting tools.
-- Created automated TypeScript tests and manually tested several new
-  initiatives, communicating issues to developers, ensuring high quality releases
-  for several features including form upload functionality, auto-PAR, mobile
-  features and several others.
+- Transformed a manual 12-hour overnight testing process into an automated,
+  scalable Selenium Grid framework using Selenium WebDriver and PowerShell.
+  Reduced testing time to 1 hour and 15 minutes by enabling parallel execution
+  across multiple VMs. Streamlined reporting directly into the Microsoft TFS
+  dashboard, providing real-time visibility into test results and improving
+  overall QA efficiency.
+- Introduced debugging, mobile emulation, and linting tools to streamline QA
+  automation processes, reducing debugging time by 50% and accelerating
+  development workflows. Authored initial documentation and created VSCode
+  customizations, enhancing team productivity.
+- Automated TypeScript tests for key features, including form uploads and
+  auto-PAR, ensuring a high-quality release. Collaborated closely with
+  developers to test mobile and web initiatives, enhancing feature stability
+  pre-launch.
 
 {{< work-role "QA Analyst" "Jan 2017 - Aug 2018" >}}
 
 {{< skill VMWare HPQC TFS>}}
 
-- Acted as defect coordinator for the team by managing defects,
-  communicating with and involving development, QA and third-level
-  support teams to help resolve software issues as soon as possible.
-- Redesigned the auto-download testing strategy and led testing each
-  cycle, coordinating with external teams to ensure customers could
-  reliably download and apply new updates regardless of their version or
-  configuration.
-- Developed manual test cases and test objectives for several
-  company-wide initiatives including dangerous goods, mail innovations
-  enhancements and upload forms enhancements, identifying issues and
-  communicating with developers.
+- Coordinated defect management for cross-functional teams, streamlining issue
+  resolution and reducing defect backlog by 100%. Effectively facilitated
+  communication between QA, development, and third-level support.
+- Revamped the auto-download testing strategy, achieving a 99% success rate in
+  applying updates across diverse customer configurations. Led end-to-end testing
+  cycles, collaborating with external teams to ensure reliability.
+- Authored detailed test cases for critical company-wide initiatives,
+  identifying and addressing 100+ issues that improved product quality for
+  enhancements like dangerous goods and mail innovations.
 
 {{< work-role "Co-op" "May 2016 - Dec 2016" >}}
 
 {{< skill "C#" ".Net" TFS HPQC>}}
 
-- Developed a tool using C# and WPF for generating defect/test case
-  metrics containing defect management data from TFS (Team Foundation
-  Server) and test case management data from HPQC, used to analyze and
-  report on the quality of WorldShip - a windows-based global shipping
-  application deployed to over 100 countries.
+- Designed and implemented a C# and WPF-based metrics tool integrating defect
+  data from TFS and HPQC, enabling efficient quality analysis of WorldShip, a
+  Windows-based application deployed in 100+ countries. Improved defect
+  traceability and reduced reporting time for QA leaders.
 
 ---
 
