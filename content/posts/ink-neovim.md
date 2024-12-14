@@ -4,7 +4,6 @@ date: 2023-12-12T23:14:41-05:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["ink", "neovim"]
-author: "EJ Reilly"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
@@ -12,16 +11,14 @@ draft: false
 hidemeta: false
 comments: false
 description: "How to configure neovim for writing stories with ink."
-canonicalURL: "https://canonical.url/to/page"
+# canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 #cover:

@@ -19,23 +19,23 @@ params:
   title: ejreilly.xyz
   description: "come drink the kool-aid"
   keywords: [Blog, Portfolio, Resume]
-  author: EJ Reilly
+  # author: EJ Reilly
   # author: ["Me", "You"] # multiple authors
   # images: ["<link or path of image for opengraph, twitter-cards>"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto # dark, light
   disableThemeToggle: false
 
-  ShowReadingTime: true
-  ShowShareButtons: true
+  ShowReadingTime: false
+  ShowShareButtons: false
   ShowPostNavLinks: false
-  ShowBreadCrumbs: true
+  ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowWordCount: true
+  ShowWordCount: false
   ShowRssButtonInSectionTermList: true
   UseHugoToc: true
   disableSpecial1stPost: false
-  disableScrollToTop: false
+  disableScrollToTop: true
   comments: false
   hidemeta: false
   hideSummary: false
@@ -55,15 +55,15 @@ params:
 
   label:
     text: "./ejreilly.xyz"
-    icon: https://gravatar.com/userimage/39490228/aeacb35b06ea80995be88ec95f86d833.jpeg?size=256
-    iconHeight: 35
+    # icon: https://gravatar.com/userimage/39490228/aeacb35b06ea80995be88ec95f86d833.jpeg?size=256
+    # iconHeight: 35
 
   # profile-mode
   profileMode:
-    enabled: false # needs to be explicitly set
+    enabled: true # needs to be explicitly set
     title: EJ Reilly
-    subtitle: "Hi 👋 I'm EJ, a software engineer [@VulnCheck](https://vulncheck.com)"
-    imageUrl: "https://gravatar.com/userimage/39490228/4835fb725f5e7decbc015149503af008.jpeg?size=300"
+    subtitle: "Software Engineer **[@VulnCheck](https://vulncheck.com)**"
+    imageUrl: "https://gravatar.com/userimage/39490228/0d20a5e8890466c7e71bf5f6df12cfd7.jpeg?size=300"
     imageWidth: 200
     imageHeight: 200
     imageTitle: Me winning a disc golf tournament

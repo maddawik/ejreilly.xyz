@@ -4,7 +4,7 @@ date: 2024-03-22T22:15:15-04:00
 # weight: 1
 # aliases: ["/first"]
 tags: ["godot", "neovim", "lazyvim"]
-author: "EJ Reilly"
+# author: "EJ Reilly"
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false
@@ -18,10 +18,8 @@ disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
+ShowReadingTime: false
 ShowBreadCrumbs: true
-ShowPostNavLinks: true
-ShowWordCount: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 # cover:
