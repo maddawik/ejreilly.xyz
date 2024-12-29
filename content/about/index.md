@@ -16,19 +16,29 @@ ShowRssButtonInSectionTermList: false
 UseHugoToc: false
 ---
 
-## ✅ VulnCheck
+{{< center-container >}}
+{{< language Languages >}}
+{{< tool Tools >}}
+{{< platform Platforms >}}
+{{< cloud "Cloud Providers" >}}
+{{< /center-container >}}
+
+## VulnCheck
 
 {{< work-role "Member of Technical Staff" "September 2024 - Now" >}}
 
-{{< skill Go Python >}}
+{{< language Go Python >}}
 
 ---
 
-## 🦊 ZeroFox (LookingGlass acquisition)
+## ZeroFox (LookingGlass acquisition)
 
 {{< work-role "Software Engineer" "April 2024 - July 2024" >}}
 
-{{< skill Python Go Bash Docker Jenkins Linux Terraform Vault >}}
+{{< language Bash Go HCL Python >}}
+{{< tool Docker Jenkins Terraform Vault >}}
+{{< platform Linux macOS >}}
+{{< cloud AWS >}}
 
 - Developed the OpenCTI integration for ZeroFox in just 2 weeks, enabling
   translation of threat intel feeds into STIX objects. Ensured reliability by
@@ -39,18 +49,24 @@ UseHugoToc: false
 
 {{< work-role "DevOps Engineer" "Apr 2023 - April 2024" >}}
 
-{{< skill AWS S3 EC2 GCP Cloudflare Docker Jenkins Go Linux Bash Terraform Vault >}}
+{{< language Bash Go >}}
+{{< tool Docker Jenkins Terraform Vault >}}
+{{< platform Linux macOS >}}
+{{< cloud AWS GCP >}}
 
-- Engineered a Go-based tool for real-time monitoring of AWS activity, enhancing
-  visibility and reducing anomaly detection time.
+- Engineered a Go-based tool for real-time monitoring of AWS activity,
+  enhancing visibility and reducing anomaly detection time.
 - Led a comprehensive review of API logging practices within the DevSecOps
   team, proposing standardized approaches that improved log traceability
 
-## 🔭 LookingGlass Cyber Solutions
+## LookingGlass Cyber Solutions
 
 {{< work-role "Platform Engineer" "Jun 2022 - Apr 2023" >}}
 
-{{< skill Linux Bash "GitHub Actions" Docker Jenkins Ansible Terraform AWS>}}
+{{< language Bash >}}
+{{< tool Ansible Docker "GitHub Actions" Jenkins Terraform >}}
+{{< platform Linux macOS >}}
+{{< cloud AWS >}}
 
 - Automated deployment processes for on-prem and AWS environments by creating
   IaC solutions with Terraform and Ansible, reducing deployment times and
@@ -65,7 +81,9 @@ UseHugoToc: false
 
 {{< work-role "QA Engineer" "Sep 2019 - Jun 2022" >}}
 
-{{< skill Ruby Python Bash "Arch Linux" Jenkins>}}
+{{< language Ruby Python Bash >}}
+{{< platform "Arch Linux" >}}
+{{< tool Jenkins >}}
 
 - Created automated test suites using Ruby/RSpec for ScoutPrime, a big-data
   platform analyzing vulnerabilities and internet topology, reducing testing
@@ -76,11 +94,12 @@ UseHugoToc: false
 
 ---
 
-## 🚚 United Postal Service
+## United Postal Service
 
 {{< work-role "Application Developer" "Aug 2018 - Sep 2019" >}}
 
-{{< skill Selenium TypeScript Powershell TFS>}}
+{{< language TypeScript >}}
+{{< tool Powershell Selenium TFS >}}
 
 - Transformed a manual 12-hour overnight testing process into an automated,
   scalable Selenium Grid framework using Selenium WebDriver and PowerShell.
@@ -99,7 +118,7 @@ UseHugoToc: false
 
 {{< work-role "QA Analyst" "Jan 2017 - Aug 2018" >}}
 
-{{< skill VMWare HPQC TFS>}}
+{{< tool HPQC TFS VMWare >}}
 
 - Coordinated defect management for cross-functional teams, streamlining issue
   resolution and reducing defect backlog by 100%. Effectively facilitated
@@ -113,7 +132,8 @@ UseHugoToc: false
 
 {{< work-role "Co-op" "May 2016 - Dec 2016" >}}
 
-{{< skill "C#" ".Net" TFS HPQC>}}
+{{< language "C#" >}}
+{{< tool ".Net" HPQC TFS >}}
 
 - Designed and implemented a C# and WPF-based metrics tool integrating defect
   data from TFS and HPQC, enabling efficient quality analysis of WorldShip, a
@@ -122,15 +142,22 @@ UseHugoToc: false
 
 ---
 
-## 🎓 Education
+## Certifications
 
-{{< education "Towson University" "💻 MS Computer Science" "May 2018" >}}
-{{< education "" "🎶 BA Jazz & Commercial Performance" "December 2014" >}}
-{{< education "Harford Community College" "🎵 AA Music" "December 2011" >}}
+{{< education "" "DeepLearning.AI Data Engineering" "Dec 2024" >}}
+{{< education "" "ISTQB Foundation Level Certification" "February 2019" >}}
 
 ---
 
-## 🎭 Musicals
+## Education
+
+{{< education "Towson University" "MS Computer Science" "May 2018" >}}
+{{< education "" "BA Jazz & Commercial Performance" "December 2014" >}}
+{{< education "Harford Community College" "AA Music" "December 2011" >}}
+
+---
+
+## Musicals
 
 {{< musicals
 "🥁 John and Jen"

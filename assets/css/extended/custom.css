@@ -4,12 +4,33 @@
 
 .skill {
     display: inline-block;
-    color: black;
-    background-color: #25ae60;
+    color: #1e1e2e;
     font-size: 14px;
     border-radius: 5px;
     padding: 5px;
     margin: 5px;
+}
+
+.language {
+    background-color: #ff9e64;
+}
+
+.tool {
+    background-color: #7aa2f7;
+}
+
+.platform {
+    background-color: #bb9af7;
+}
+
+.cloud {
+    background-color: #7dcfff;
+}
+
+.center-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .musical {
