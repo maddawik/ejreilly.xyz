@@ -82,8 +82,8 @@ UseHugoToc: false
 {{< work-role "QA Engineer" "Sep 2019 - Jun 2022" >}}
 
 {{< language Ruby Python Bash >}}
-{{< platform "Arch Linux" >}}
 {{< tool Jenkins >}}
+{{< platform Linux macOS >}}
 
 - Created automated test suites using Ruby/RSpec for ScoutPrime, a big-data
   platform analyzing vulnerabilities and internet topology, reducing testing
@@ -100,6 +100,7 @@ UseHugoToc: false
 
 {{< language TypeScript >}}
 {{< tool Powershell Selenium TFS >}}
+{{< platform Windows >}}
 
 - Transformed a manual 12-hour overnight testing process into an automated,
   scalable Selenium Grid framework using Selenium WebDriver and PowerShell.
@@ -119,6 +120,7 @@ UseHugoToc: false
 {{< work-role "QA Analyst" "Jan 2017 - Aug 2018" >}}
 
 {{< tool HPQC TFS VMWare >}}
+{{< platform Windows >}}
 
 - Coordinated defect management for cross-functional teams, streamlining issue
   resolution and reducing defect backlog by 100%. Effectively facilitated
@@ -134,6 +136,7 @@ UseHugoToc: false
 
 {{< language "C#" >}}
 {{< tool ".Net" HPQC TFS >}}
+{{< platform Windows >}}
 
 - Designed and implemented a C# and WPF-based metrics tool integrating defect
   data from TFS and HPQC, enabling efficient quality analysis of WorldShip, a
