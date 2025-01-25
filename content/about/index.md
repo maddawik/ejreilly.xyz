@@ -20,10 +20,9 @@ UseHugoToc: false
 {{< language Languages >}}
 {{< tool Tools >}}
 {{< platform Platforms >}}
-{{< cloud "Cloud Providers" >}}
 {{< /center-container >}}
 
-## VulnCheck
+## ✅ VulnCheck
 
 {{< work-role "Member of Technical Staff" "September 2024 - Now" >}}
 
@@ -31,14 +30,13 @@ UseHugoToc: false
 
 ---
 
-## ZeroFox (LookingGlass acquisition)
+## 🔭 LookingGlass Cyber Solutions (Now ZeroFox)
 
 {{< work-role "Software Engineer" "April 2024 - July 2024" >}}
 
-{{< language Bash Go HCL Python >}}
+{{< language Go Python HCL Bash >}}
 {{< tool Docker Jenkins Terraform Vault >}}
-{{< platform Linux macOS >}}
-{{< cloud AWS >}}
+{{< platform Linux macOS AWS >}}
 
 - Developed the OpenCTI integration for ZeroFox in just 2 weeks, enabling
   translation of threat intel feeds into STIX objects. Ensured reliability by
@@ -47,26 +45,11 @@ UseHugoToc: false
   Salt, facilitating seamless integration testing and accelerating feedback
   cycles for PANW-related products.
 
-{{< work-role "DevOps Engineer" "Apr 2023 - April 2024" >}}
+{{< work-role "DevOps Engineer" "Jun 2022 - April 2024" >}}
 
-{{< language Bash Go >}}
-{{< tool Docker Jenkins Terraform Vault >}}
-{{< platform Linux macOS >}}
-{{< cloud AWS GCP >}}
-
-- Engineered a Go-based tool for real-time monitoring of AWS activity,
-  enhancing visibility and reducing anomaly detection time.
-- Led a comprehensive review of API logging practices within the DevSecOps
-  team, proposing standardized approaches that improved log traceability
-
-## LookingGlass Cyber Solutions
-
-{{< work-role "Platform Engineer" "Jun 2022 - Apr 2023" >}}
-
-{{< language Bash >}}
+{{< language Go Python HCL Bash >}}
 {{< tool Ansible Docker "GitHub Actions" Jenkins Terraform >}}
-{{< platform Linux macOS >}}
-{{< cloud AWS >}}
+{{< platform Linux macOS AWS >}}
 
 - Automated deployment processes for on-prem and AWS environments by creating
   IaC solutions with Terraform and Ansible, reducing deployment times and
@@ -78,6 +61,10 @@ UseHugoToc: false
   issues, enhancing system maintainability and reducing dependency complexity.
 - Designed and deployed a reusable Terraform module for shipping CloudWatch
   logs to Logz.io, standardizing log management and reducing configuration time.
+- Engineered a Go-based tool for real-time monitoring of AWS activity,
+  enhancing visibility and reducing anomaly detection time.
+- Led a comprehensive review of API logging practices within the DevSecOps
+  team, proposing standardized approaches that improved log traceability
 
 {{< work-role "QA Engineer" "Sep 2019 - Jun 2022" >}}
 
@@ -94,7 +81,7 @@ UseHugoToc: false
 
 ---
 
-## United Postal Service
+## 🚚 United Postal Service
 
 {{< work-role "Application Developer" "Aug 2018 - Sep 2019" >}}
 
@@ -147,8 +134,8 @@ UseHugoToc: false
 
 ## Certifications
 
-{{< education "" "DeepLearning.AI Data Engineering" "Dec 2024" >}}
-{{< education "" "ISTQB Foundation Level Certification" "February 2019" >}}
+{{< certification "DeepLearning.AI Data Engineering" "https://www.coursera.org/account/accomplishments/specialization/SCIE3SCMF0JS" "Dec 2024" >}}
+{{< certification "ISTQB Foundation Level Certification" "http://www.scr.istqb.org/?name=Edward+Reilly&number=17-CTFL-00807-USA" "April 2017" >}}
 
 ---
 

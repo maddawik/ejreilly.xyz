@@ -57,6 +57,12 @@
     align-items: center;
 }
 
+.certification-entry p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .degree {
     flex: 1;
 }
