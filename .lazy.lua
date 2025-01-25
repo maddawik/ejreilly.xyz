@@ -1,4 +1,4 @@
 return {
 	"phelipetls/vim-hugo",
-	ft = "md",
+	ft = { "htmlhugo" },
 }
