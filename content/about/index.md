@@ -24,7 +24,7 @@ UseHugoToc: false
 
 ## ✅ VulnCheck
 
-{{< work-role "Member of Technical Staff" "September 2024 - Now" >}}
+{{< work-role "Software Engineer" "September 2024 - Now" >}}
 
 {{< language Go Python >}}
 
