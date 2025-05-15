@@ -1,6 +1,5 @@
 baseURL: "https://ejreilly.xyz/"
 title: ejreilly.xyz
-paginate: 5
 theme: PaperMod
 
 enableRobotsTXT: true
