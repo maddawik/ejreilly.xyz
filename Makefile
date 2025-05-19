@@ -1,11 +1,12 @@
-.PHONY: build
+.PHONY: build dev update init
 build:
 	hugo
 
-.PHONY: dev
 dev:
 	hugo serve --buildDrafts
 
-.PHONY: update
 update:
 	hugo mod get -u ./...
+
+init:
+	git submodule update --init --recursive
