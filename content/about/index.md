@@ -148,6 +148,11 @@ UseHugoToc: false
 ## Musicals
 
 {{< musicals
+"🎭 Sideshow"
+"🎭 Little Shop of Horrors"
+"🎭 Miracle on 34th Street"
+"🎭 Grease"
+"🎭 Jesus Christ Superstar"
 "🥁 John and Jen"
 "🎸 Into the Woods"
 "🎸 Sweeney Todd"
