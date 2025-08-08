@@ -3,7 +3,7 @@ title: 'Ink in Neovim'
 date: 2023-12-12T23:14:41-05:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["ink", "neovim"]
+# tags: ["ink", "neovim"]
 # author: ["Me", "You"] # multiple authors
 showToc: false
 TocOpen: false

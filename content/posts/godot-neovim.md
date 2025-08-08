@@ -3,7 +3,7 @@ title: 'Godot & Neovim'
 date: 2024-03-22T22:15:15-04:00
 # weight: 1
 # aliases: ["/first"]
-tags: ["godot", "neovim", "lazyvim"]
+# tags: ["godot", "neovim", "lazyvim"]
 # author: "EJ Reilly"
 # author: ["Me", "You"] # multiple authors
 showToc: false
