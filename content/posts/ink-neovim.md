@@ -17,8 +17,6 @@ disableShare: true
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: false
-ShowBreadCrumbs: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 #cover:
