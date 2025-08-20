@@ -134,8 +134,8 @@ UseHugoToc: false
 
 ## Certifications
 
-{{< certification "DeepLearning.AI Data Engineering" "<https://www.coursera.org/account/accomplishments/specialization/SCIE3SCMF0JS>" "Dec 2024" >}}
-{{< certification "ISTQB Foundation Level Certification" "<http://www.scr.istqb.org/?name=Edward+Reilly&number=17-CTFL-00807-USA>" "April 2017" >}}
+{{< certification "DeepLearning.AI Data Engineering" "https://www.coursera.org/account/accomplishments/specialization/SCIE3SCMF0JS" "Dec 2024" >}}
+{{< certification "ISTQB Foundation Level Certification" "http://www.scr.istqb.org/?name=Edward+Reilly&number=17-CTFL-00807-USA" "April 2017" >}}
 
 ## Education
 
