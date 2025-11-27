@@ -1,5 +1,5 @@
 ---
-title: 'Ink in Neovim'
+title: "Ink in Neovim"
 date: 2023-12-12T23:14:41-05:00
 # weight: 1
 # aliases: ["/first"]
@@ -10,25 +10,24 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "How to configure neovim for writing stories with ink."
+description: "How to configure Neovim for writing stories with ink"
 # canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: true
-disableHLJS: false
 hideSummary: false
 searchHidden: true
 ShowRssButtonInSectionTermList: true
 UseHugoToc: true
 #cover:
-  #image: "<image path/url>" # image path/url
-  #alt: "<alt text>" # alt text
-  #caption: "<text>" # display caption under cover
-  #relative: false # when using page bundles set this to true
-  #hidden: true # only hide on current single page
+#image: "<image path/url>" # image path/url
+#alt: "<alt text>" # alt text
+#caption: "<text>" # display caption under cover
+#relative: false # when using page bundles set this to true
+#hidden: true # only hide on current single page
 #editPost:
-  #URL: "https://github.com/mawdac/blog/content"
-  #Text: "Suggest Changes" # edit text
-  #appendFilePath: true # to append file path to Edit link
+#URL: "https://github.com/mawdac/blog/content"
+#Text: "Suggest Changes" # edit text
+#appendFilePath: true # to append file path to Edit link
 ---
 
 ## Intro
