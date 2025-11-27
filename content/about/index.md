@@ -149,8 +149,8 @@ UseHugoToc: false
 
 {{< musicals
 "🎭 Sideshow"
-"🎭 Little Shop of Horrors"
 "🎭 Miracle on 34th Street"
+"🎭 Little Shop of Horrors"
 "🎭 Grease"
 "🎭 Jesus Christ Superstar"
 "🥁 John and Jen"
