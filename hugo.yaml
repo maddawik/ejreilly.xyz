@@ -66,11 +66,11 @@ params:
     imageWidth: 300
     imageHeight: 300
     imageTitle: Look ma, I'm a gopher!
-    buttons:
-      - name: About
-        url: about
-      - name: Blog
-        url: posts
+    # buttons:
+    #   - name: About
+    #     url: about
+    #   - name: Blog
+    #     url: posts
 
   # home-info mode
   homeInfoParams:
