@@ -62,7 +62,7 @@ params:
     enabled: true # needs to be explicitly set
     title: EJ Reilly
     subtitle: "Software Engineer **[@VulnCheck](https://vulncheck.com)**"
-    imageUrl: "https://0.gravatar.com/avatar/2ffaf663a308e5bd7ccaf6e72de5117d364ef0a3cd7a62d3622a69333c2ca8fa?size=300"
+    imageUrl: "https://gravatar.com/userimage/39490228/bc9b6bb0893d304ebef00330e0298c2b.jpeg?size=300"
     imageWidth: 300
     imageHeight: 300
     imageTitle: Look ma, I'm a gopher!
