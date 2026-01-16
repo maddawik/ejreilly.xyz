@@ -26,7 +26,9 @@ UseHugoToc: false
 
 {{< work-role "Software Engineer" "September 2024 - Now" >}}
 
-{{< language Go Python >}}
+{{< language Go Python HCL Bash >}}
+{{< tool Docker Terraform Kubernetes >}}
+{{< platform Linux macOS AWS >}}
 
 ---
 
