@@ -1,0 +1,63 @@
+---
+import "../styles/global.css";
+import { Font } from "astro:assets";
+import { SITE_TITLE } from "../consts";
+
+interface Props {
+  title?: string;
+  description: string;
+  type?: "website" | "article";
+}
+
+const { title, description, type = "website" } = Astro.props;
+const fullTitle = title ? `${title} · ${SITE_TITLE}` : SITE_TITLE;
+const canonicalURL = new URL(Astro.url.pathname, Astro.site);
+---
+
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>{fullTitle}</title>
+<meta name="description" content={description} />
+<link rel="canonical" href={canonicalURL} />
+
+<link rel="icon" href="/favicon.ico" sizes="any" />
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+<link rel="sitemap" href="/sitemap-index.xml" />
+<link
+  rel="alternate"
+  type="application/rss+xml"
+  title={SITE_TITLE}
+  href={new URL("rss.xml", Astro.site)}
+/>
+<meta
+  name="theme-color"
+  content="#ebe4cf"
+  media="(prefers-color-scheme: light)"
+/>
+<meta
+  name="theme-color"
+  content="#080d09"
+  media="(prefers-color-scheme: dark)"
+/>
+
+<meta property="og:type" content={type} />
+<meta property="og:url" content={canonicalURL} />
+<meta property="og:title" content={fullTitle} />
+<meta property="og:description" content={description} />
+<meta property="og:site_name" content={SITE_TITLE} />
+<meta name="twitter:card" content="summary" />
+
+<Font cssVariable="--font-sans" preload />
+<Font cssVariable="--font-mono" />
+
+<script is:inline>
+  // Apply the saved theme before first paint to avoid a flash.
+  try {
+    const theme = localStorage.getItem("theme");
+    if (theme === "light" || theme === "dark") {
+      document.documentElement.dataset.theme = theme;
+    }
+  } catch {}
+</script>

@@ -1,0 +1,62 @@
+---
+import { render } from "astro:content";
+import readingTime from "reading-time";
+import Base from "../../layouts/Base.astro";
+import CopyCode from "../../components/CopyCode.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import { getPosts, type Post } from "../../lib/posts";
+
+export async function getStaticPaths() {
+  const posts = await getPosts();
+  return posts.map((post) => ({ params: { slug: post.id }, props: post }));
+}
+
+type Props = Post;
+
+const post = Astro.props;
+const { title, description, date, updated, draft } = post.data;
+const { Content } = await render(post);
+const minutes = Math.max(1, Math.round(readingTime(post.body ?? "").minutes));
+---
+
+<Base title={title} description={description} type="article">
+  <article>
+    <header>
+      <h1>{title}</h1>
+      <p class="meta mono muted">
+        <FormattedDate date={date} />
+        {updated && (
+          <>
+            {" · updated "}
+            <FormattedDate date={updated} />
+          </>
+        )}
+        {` · ${minutes} min read`}
+        {draft && <span class="draft"> · draft</span>}
+      </p>
+    </header>
+    <div class="prose">
+      <Content />
+    </div>
+  </article>
+  <CopyCode />
+</Base>
+
+<style>
+  header {
+    margin-bottom: 2.5rem;
+  }
+
+  h1 {
+    margin-bottom: 0.5rem;
+  }
+
+  .meta {
+    font-size: 0.8125rem;
+    margin: 0;
+  }
+
+  .draft {
+    color: var(--alert);
+  }
+</style>
