@@ -1,0 +1,67 @@
+---
+import Base from "../../layouts/Base.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import { getPosts, type Post } from "../../lib/posts";
+
+const posts = await getPosts();
+
+const byYear = new Map<number, Post[]>();
+for (const post of posts) {
+  const year = post.data.date.getFullYear();
+  byYear.set(year, [...(byYear.get(year) ?? []), post]);
+}
+---
+
+<Base title="Writing" description="Posts by EJ Reilly.">
+  <h1>Writing</h1>
+  {[...byYear].map(([year, yearPosts]) => (
+    <section>
+      <h2 class="mono muted">{year}</h2>
+      <ul>
+        {yearPosts.map((post) => (
+          <li>
+            <a href={`/writing/${post.id}/`}>{post.data.title}</a>
+            {post.data.draft && <span class="draft mono">draft</span>}
+            <span class="mono muted">
+              <FormattedDate date={post.data.date} format="short" />
+            </span>
+          </li>
+        ))}
+      </ul>
+    </section>
+  ))}
+  <p class="muted">
+    Subscribe via <a href="/rss.xml">RSS</a>.
+  </p>
+</Base>
+
+<style>
+  h2 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    margin: 2rem 0 0.5rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  li {
+    display: flex;
+    align-items: baseline;
+    gap: 0.75rem;
+    margin-top: 0;
+  }
+
+  li .muted {
+    margin-left: auto;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+  }
+
+  .draft {
+    color: var(--alert);
+    font-size: 0.75rem;
+  }
+</style>

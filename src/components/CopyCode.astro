@@ -1,0 +1,63 @@
+<script>
+  for (const pre of document.querySelectorAll<HTMLPreElement>(".prose pre")) {
+    // The button lives on a non-scrolling wrapper so it stays pinned to the
+    // corner when a long line scrolls the <pre> horizontally.
+    const wrapper = document.createElement("div");
+    wrapper.className = "code-block";
+    pre.before(wrapper);
+    wrapper.append(pre);
+
+    const button = document.createElement("button");
+    button.type = "button";
+    button.className = "copy-code";
+    button.textContent = "copy";
+    button.addEventListener("click", async () => {
+      const code = pre.querySelector("code")?.innerText ?? "";
+      try {
+        await navigator.clipboard.writeText(code);
+        button.textContent = "copied";
+      } catch {
+        button.textContent = "failed";
+      }
+      setTimeout(() => (button.textContent = "copy"), 1500);
+    });
+    wrapper.append(button);
+  }
+</script>
+
+<style is:global>
+  .code-block {
+    position: relative;
+  }
+
+  .copy-code {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    padding: 0.1rem 0.4rem;
+    border: 1px solid var(--rule);
+    border-radius: 3px;
+    background: var(--bg);
+    color: var(--fg-muted);
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    cursor: pointer;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+
+  .code-block:hover .copy-code,
+  .copy-code:focus-visible {
+    opacity: 1;
+  }
+
+  @media (hover: none) {
+    .copy-code {
+      opacity: 1;
+    }
+  }
+
+  .copy-code:hover {
+    color: var(--accent-hover);
+  }
+</style>

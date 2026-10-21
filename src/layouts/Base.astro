@@ -1,0 +1,95 @@
+---
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import SiteNav from "../components/SiteNav.astro";
+
+interface Props {
+  title?: string;
+  description: string;
+  type?: "website" | "article";
+}
+
+const props = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead {...props} />
+  </head>
+  <body>
+    <div class="shell">
+      <SiteNav />
+      <main>
+        <slot />
+      </main>
+      <Footer />
+    </div>
+  </body>
+</html>
+
+<style>
+  .shell {
+    --top: clamp(4rem, 18vh, 10rem);
+
+    display: grid;
+    grid-template-columns: 8rem minmax(0, 40rem);
+    grid-template-rows: 1fr auto;
+    column-gap: 4rem;
+    justify-content: center;
+    min-height: 100dvh;
+    /* Same offset on every page so the nav never shifts between pages. */
+    padding: var(--top) 1rem 0;
+  }
+
+  .shell > :global(nav) {
+    grid-column: 1;
+    grid-row: 1;
+    align-self: start;
+    position: sticky;
+    top: var(--top);
+    /* Line the first nav item up with the page heading. */
+    padding-top: 0.5rem;
+  }
+
+  main {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .shell > :global(footer) {
+    grid-column: 2;
+    grid-row: 2;
+  }
+
+  @media (max-width: 48rem) {
+    .shell {
+      grid-template-columns: minmax(0, 1fr);
+      grid-template-rows: auto 1fr auto;
+      --top: 2rem;
+    }
+
+    .shell > :global(nav) {
+      position: static;
+      padding-top: 0;
+      margin-bottom: 3rem;
+    }
+
+    main,
+    .shell > :global(footer) {
+      grid-column: 1;
+    }
+
+    .shell > :global(nav) {
+      grid-row: 1;
+    }
+
+    main {
+      grid-row: 2;
+    }
+
+    .shell > :global(footer) {
+      grid-row: 3;
+    }
+  }
+</style>

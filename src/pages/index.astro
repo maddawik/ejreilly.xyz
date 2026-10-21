@@ -1,0 +1,10 @@
+---
+import Base from "../layouts/Base.astro";
+import { SITE_DESCRIPTION } from "../consts";
+import { Content as Bio } from "../content/bio.md";
+---
+
+<Base description={SITE_DESCRIPTION}>
+  <h1>EJ Reilly</h1>
+  <Bio />
+</Base>

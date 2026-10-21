@@ -1,0 +1,32 @@
+[tools]
+node = "24"
+pnpm = "12"
+
+[tasks.install]
+description = "Install dependencies"
+run = "pnpm install"
+
+[tasks.dev]
+description = "Start the dev server (includes drafts)"
+depends = ["install"]
+run = "pnpm astro dev"
+
+[tasks.build]
+description = "Build the site into dist/"
+depends = ["install"]
+run = "pnpm astro build"
+
+[tasks.preview]
+description = "Serve the production build locally"
+depends = ["build"]
+run = "pnpm astro preview"
+
+[tasks.check]
+description = "Type-check and verify formatting"
+depends = ["install"]
+run = ["pnpm astro check", "pnpm prettier --check ."]
+
+[tasks.fmt]
+description = "Format the codebase"
+depends = ["install"]
+run = "pnpm prettier --write ."
